@@ -1,0 +1,96 @@
+config:
+  #Coming soon.. do not touch this config section
+  mobs:
+    customcreepers:
+      chances:
+        universal: 60
+        mobs:
+          #snowman: 10 - example
+      creepers:
+        lucky:
+          enabled: true
+          mob-name: '&e&lLucky Creeper'
+          chance-boost: 20
+          item:
+            name: '&eLucky Creeper'
+            lore:
+              - '&7&oIncreases chances of spawner drops'
+        tactical:
+          enabled: true
+          mob-name: '&9&lTactical Creeper'
+          item:
+            name: '&9Tactical Creeper'
+            lore:
+              - '&7&oExplosion only affects mob spawners.'
+        gigantic:
+          enabled: true;
+          mob-name: '&b&lGigantic Creeper'
+          power: 16
+          chance-decrease: 12
+          lore:
+            - '&7&oExplodes in a much larger radius'
+        powered:
+          enabled: true
+          mob-name: '&c&lPowered Creeper'
+          item:
+            name: '&cPowered Creeper'
+            item:
+              name: '&cPowered Creeper'
+              lore:
+                - '&7&0Automatically smites upon placing.'
+  homegui:
+    icons:
+      - 'DIRT'
+      - 'STONE'
+      - 'COBBLESTONE'
+      - 'OAK_LOG'
+      - 'COBWEB'
+      - 'CRAFTING_TABLE'
+      - 'PISTON'
+      - 'NOTE_BLOCK'
+      - 'SPAWNER'
+      - 'BOOKSHELF'
+      - 'TNT'
+      - 'OAK_STAIRS'
+      - 'ANVIL'
+      - 'IRON_BLOCK'
+      - 'GOLD_BLOCK'
+      - 'DIAMOND_BLOCK'
+      - 'NETHERITE_SWORD'
+      - 'NETHERRACK'
+      - 'END_STONE'
+      - 'CHEST'
+      - 'ENDER_CHEST'
+      - 'BRICKS'
+      - 'SNOW_BLOCK'
+      - 'SOUL_SAND'
+      - 'QUARTZ_BLOCK'
+      - 'DIAMOND_SWORD'
+      - 'DIAMOND_AXE'
+      - 'DIAMOND_PICKAXE'
+      - 'DIAMOND_SHOVEL'
+      - 'DIAMOND_HOE'
+      - 'ICE'
+      - 'PACKED_ICE'
+      - 'DISPENSER'
+      - 'FURNACE'
+      - 'HOPPER'
+      - 'GLASS'
+      - 'BEE_NEST'
+      - 'SPONGE'
+      - 'OBSIDIAN'
+      - 'BEDROCK'
+      - 'ENCHANTING_TABLE'
+      - 'CACTUS'
+      - 'GLOWSTONE'
+      - 'DIAMOND'
+      - 'EMERALD'
+      - 'GOLD_INGOT'
+      - 'IRON_INGOT'
+      - 'REDSTONE'
+      - 'BUCKET'
+      - 'LAVA_BUCKET'
+      - 'WATER_BUCKET'
+      - 'GOLDEN_APPLE'
+      - 'EXPERIENCE_BOTTLE'
+      - 'RED_BED'
